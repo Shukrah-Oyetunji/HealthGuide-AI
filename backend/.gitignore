@@ -1,0 +1,30 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# ChromaDB runtime data
+rag/chroma_db/
+
+# Python cache and temporary files
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# Operating system
+.DS_Store
+Thumbs.db
